@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-5">
+        <title>Set Page Color Popup</title>
+        <script src="popup.js"></script>
+        <style>
+            body {
+                min-width:200px;
+            }
+            div.menu-container {
+                margin-top: 10px;
+                clear: both;
+                border: 1px #c8c8c8 solid;
+                background: #ffffff;
+                -webkit-border-radius: 5px;
+            }
+            div.menu-title {
+                padding: 5px 8px 5px 8px;
+                background: #ff9900;
+                border-bottom: 1px #c8c8c8 solid;
+                -webkit-border-top-left-radius: 2px;
+                -webkit-border-top-right-radius: 2px;
+                font-family: Arial;
+                font-size: 12px;
+                font-weight: bold;
+                color: #ffffff;
+            }
+            div.menu-item {
+                font-family: Arial;
+                font-size: 12px;
+                padding: 3px 8px 3px 8px;
+            }
+            div.menu-item:hover{
+                background: #CCFFCC;
+                cursor: pointer;
+                cursor: hand;
+            }
+            div.info div.icon {
+                float: left;
+                width: 40px;
+            }
+            div.info div.text {
+                float: right;
+                width: 150px;
+            }
+            div.text div.title {
+
+            }
+            div.text div.description {
+                font-family: Arial;
+                font-size: 8px;
+                color: #707070;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="info">
+                <div class="icon">
+                    <img src="icons/icon38x38.png"/>
+                </div>
+                <div class="text">
+                    <div class="title">Українська Латинка</div>
+                    <div class="description">Транскрибування українських сторінок</div>
+                </div>
+            </div>
+            <div class="menu-container">
+                <div class="menu-title">Схеми</div>
+                <div class="menu">
+                    <div class="menu-item">за Лозиньким</div>
+                    <div class="menu-item">за Їречеком</div>
+                    <div class="menu-item">за Державним Стандартом</div>
+                    <div class="menu-item">на основі гаєвиці</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
